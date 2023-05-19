@@ -7,8 +7,8 @@ from scipy.stats import t
 from scipy.stats import zscore
 
 # Leer el archivo
-pref = pd.read_excel("C:/Users/camil/Documents/COURSES/Diplomado Data Sience/Data Sciences/Kaggle/Bancolombia Pref Ord Retorno diario Accion/ACC_Pref_Ord_15May2022_2023.xlsx", sheet_name="ACCION_Preferencial") 
-ordi = pd.read_excel("C:/Users/camil/Documents/COURSES/Diplomado Data Sience/Data Sciences/Kaggle/Bancolombia Pref Ord Retorno diario Accion/ACC_Pref_Ord_15May2022_2023.xlsx", sheet_name="ACCION_Ordinaria") 
+pref = pd.read_excel("Route stock 1", sheet_name="ACCION_Preferencial") 
+ordi = pd.read_excel("Route stock 2", sheet_name="ACCION_Ordinaria") 
 
 # Data wrangling
 
